@@ -1,0 +1,14 @@
+.header  {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    background: #333333;
+    color: #ece6e6;
+}
+
+.header__menu {
+    display: flex;
+}
+.header__menu div {
+    margin-left: 15px;
+}

@@ -115,3 +115,9 @@
         min-width: 500px;
     }
 }
+
+@media (max-width:525px) {
+    .item {
+        min-width: 280px;
+    }
+}

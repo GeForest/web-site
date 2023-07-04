@@ -2,7 +2,6 @@ import React from 'react'
 
 import styles from '../Content.module.css'
 import {goods} from './goods.data'
-import '../img/1.jpg'
 import { ContentContext } from '../Content'
 
 function Goods() {

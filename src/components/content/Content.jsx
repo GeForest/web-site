@@ -3,24 +3,26 @@ import React from 'react';
 import styles from './Content.module.css'
 import Goods from './goodsCreate/Goods';
 import Cart from './cartCreate/Cart';
-import { useState } from 'react';
+// import { ContentContext } from '../../App';
+// import { useState } from 'react';
 
-export const ContentContext = React.createContext()
-const arrCart = []
+// export const ContentContext = React.createContext()
+// const arrCart = []
 
 function Content() {
-  let [cart, setCart] = useState()
-  function addCart(item) {
-    arrCart.push(item)
-    console.log(typeof cart)
-  }
+  // const {arrCart, setCart, addCart} = React.useContext(ContentContext)
+  // let [cart, setCart] = useState()
+  // function addCart(item) {
+  //   arrCart.push(item)
+  //   console.log(typeof cart)
+  // }
   return (
-    <ContentContext.Provider value={{arrCart, addCart, setCart}}>
-    <div className={styles.content}>
-        <Goods />
-        <Cart />
-    </div>
-    </ContentContext.Provider>
+    // <ContentContext.Provide value={{arrCart, addCart, setCart}}>
+      <div className={styles.content} >
+          <Goods />
+          <Cart />
+      </div>
+    // </ContentContext.Provide>
   );
 }
 

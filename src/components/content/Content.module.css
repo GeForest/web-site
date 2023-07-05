@@ -95,10 +95,7 @@
         min-width: 400px;
     }
     .cart{
-        display: none;
         width: 0;
-        visibility: hidden;
-        opacity: 0;
     }
     .cart__block {
         overflow-y: hidden;

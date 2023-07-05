@@ -2,7 +2,8 @@ import React from 'react'
 
 import styles from '../Content.module.css'
 import {goods} from './goods.data'
-import { ContentContext } from '../Content'
+// import { ContentContext } from '../Content'
+import { ContentContext } from '../../../App'
 
 function Goods() {
     const {setCart, addCart} = React.useContext(ContentContext)

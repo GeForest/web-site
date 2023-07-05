@@ -3,12 +3,29 @@
     display: flex;
     justify-content: space-between;
     background: #333333;
-    color: #ece6e6;
+    color: antiquewhite;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: none;
+    color: antiquewhite;
 }
 
 .header__menu {
     display: flex;
 }
 .header__menu div {
-    margin-left: 15px;
+    margin-left: 50px;
+}
+.btn__cart img {
+    background: #333333;
+    width: 18px;
+    height: 18px;
+}
+
+@media (max-width:665px) {
+    .header__menu div {
+        margin-left: 10px;
+    }
 }

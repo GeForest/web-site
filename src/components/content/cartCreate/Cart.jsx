@@ -1,11 +1,12 @@
 import React from 'react';
 
 import styles from '../Content.module.css'
-import { ContentContext } from '../Content'
+import { ContentContext } from '../../../App'
+
 function Cart() {
 
     let {arrCart} = React.useContext(ContentContext)
-    console.log(arrCart)
+    // console.log(arrCart)
     return (
     <div className={styles.cart}>
         <div className={styles.cart__block}>

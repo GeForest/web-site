@@ -21,7 +21,7 @@
     text-align: center;
 }
 .item{
-    max-width: 300px; /*225px */
+    max-width: 300px;
     margin-top: 30px;
     display: flex;
     align-items: stretch;
@@ -66,27 +66,125 @@
 
 /* STYLES FOR CART */
 
-.cart {
+.cart__main {
     height: 80vh;
     width: 50%;
     border-left: 4px solid #333;
     background: #1a222fed;
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 10px;
     color: antiquewhite;
     visibility: visible;
     opacity: 1;
 }
 
 .cart__block {
+    min-width: 410px;
     overflow-y: scroll;
     padding: 15px 20px;
-    border-radius: 15px 0 0 15px;
+    border-radius: 15px 0 0 10px;
     border-left: 3px solid rgba(255, 242, 0, 0.905);
-    width: 100%;
     height: 100%;
 }
 
-@media (max-width:1390px) {
+.cart__item {
+    margin-top: 5px;
+    background: antiquewhite;
+    border-radius: 15px;
+    padding: 3% 3%;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    min-width: 350px;
+}
+
+.cart__image {
+    max-width: 100px;
+    border-radius: 15px;
+}
+
+.cart__info {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove__btn {
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background: url('https://img.icons8.com/ios-filled/20/delete-sign--v1.png') no-repeat;
+}
+
+.cart__count {
+    position: relative;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__count button {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #333;
+    color: antiquewhite;
+}
+
+.cart__count span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cart__cost_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a222fed;
+    margin-top: 3px;
+    padding: 15px 20px;
+    width: 100%;
+    color: antiquewhite;
+    border-radius: 15px;
+    border-left: 5px solid rgba(255, 242, 0, 0.905);
+    border-right: 5px solid rgba(255, 242, 0, 0.905);
+}
+
+.cart__cost_btn button {
+    padding: 3px;
+    border: 1px solid antiquewhite;
+    border-radius: 7px;
+    color: antiquewhite;
+    background: #333;
+    transition: all .3s ease;
+    transform: scale(1);
+}
+
+.cart__cost_btn button:hover {
+    transform: scale(1.2);
+    transition: all .3s ease;
+}
+
+.cart__block::-webkit-scrollbar {
+    width: 12px;
+}
+  
+.cart__block::-webkit-scrollbar-track {
+    background: #333;
+}
+  
+.cart__block::-webkit-scrollbar-thumb {
+    background-color: antiquewhite;
+    border-radius: 20px;  
+    border: 3px solid #333;
+}
+
+@media (max-width:1490px) {
     .blocks {
         width: 100%;
         justify-content: space-around;
@@ -94,7 +192,7 @@
     .item {
         min-width: 400px;
     }
-    .cart{
+    .cart__main{
         display: none;
         width: 0;
         visibility: hidden;

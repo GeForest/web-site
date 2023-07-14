@@ -1,6 +1,7 @@
 export const goods = [
     {   
         id: 1,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F/35747F91-2FA5-11ED-8371-B11A020B59BC-1969%D1%851100_0006_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F-%D1%81-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC.png?alt=media&token=2134e114-0d92-42c5-ab06-cc12ee288294&w=800&format=webp&mode=fit&q=60",
         name: "Филадельфия",
         description: "Лосось, сливочный сыр, огурец, 8 шт.",
@@ -8,6 +9,7 @@ export const goods = [
     },
     {   
         id: 2,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F/1CE280F1-3070-11ED-8371-B11A020B59BC-1969%D1%851100_0002_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F-%D1%81-%D1%83%D0%B3%D1%80%D1%91%D0%BC.png?alt=media&token=42a5aeb4-67fd-4330-a2eb-57833558c64c&w=800&format=webp&mode=fit&q=60",
         name: "Филадельфия с угрем",
         description: "Угорь, сливочный сыр, авокадо, 8 шт.",
@@ -15,6 +17,7 @@ export const goods = [
     },
     {   
         id: 3,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F/5F4B1FF1-E51B-11ED-B93D-3D904A26EF2D-1969%D1%851100__0002_%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F-%D0%B7-%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D1%8E-%D0%B2-%D0%BA%D1%83%D0%BD%D0%B6%D1%83%D1%82%D1%96-copy.png?alt=media&token=8cedbc02-1343-4349-b2cc-f63387ec8ff6&w=991&h=700&format=webp&mode=fit&q=60",
         name: "Филадельфия с креветками",
         description: "Креветка, сливочный сыр, огурец, кунжут 8 шт.",
@@ -22,6 +25,7 @@ export const goods = [
     },
     {   
         id: 4,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%9A%D0%B0%D0%BB%D1%96%D1%84%D0%BE%D1%80%D0%BD%D1%96%D1%97/BEFA2531-3068-11ED-ACA4-2DE1140535B7-1969%D1%851100_0029_%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F-%D1%81-%D0%BA%D1%80%D0%B0%D0%B1%D0%BE%D0%B2%D1%8B%D0%BC-%D0%BC%D0%B8%D0%BA%D1%81%D0%BE%D0%BC-%D0%B2-%D0%B8%D0%BA%D1%80%D0%B5.png?alt=media&token=6a3fc0a2-456e-422c-9c6a-0892adb7115d&w=800&format=webp&mode=fit&q=60",
         name: "Калифорнийский краб",
         description: "Снежный краб, огурец, икра 8 шт.",
@@ -29,6 +33,7 @@ export const goods = [
     },
     {   
         id: 5,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F/35747F91-2FA5-11ED-8371-B11A020B59BC-1969%D1%851100_0006_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F-%D1%81-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC.png?alt=media&token=2134e114-0d92-42c5-ab06-cc12ee288294&w=800&format=webp&mode=fit&q=60",
         name: "Филадельфия",
         description: "Лосось, сливочный сыр, огурец, 8 шт.",
@@ -36,6 +41,7 @@ export const goods = [
     },
     {   
         id: 6,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F/1CE280F1-3070-11ED-8371-B11A020B59BC-1969%D1%851100_0002_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F-%D1%81-%D1%83%D0%B3%D1%80%D1%91%D0%BC.png?alt=media&token=42a5aeb4-67fd-4330-a2eb-57833558c64c&w=800&format=webp&mode=fit&q=60",
         name: "Филадельфия с угрем",
         description: "Угорь, сливочный сыр, авокадо, 8 шт.",
@@ -43,6 +49,7 @@ export const goods = [
     },
     {   
         id: 7,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F/5F4B1FF1-E51B-11ED-B93D-3D904A26EF2D-1969%D1%851100__0002_%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F-%D0%B7-%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D1%8E-%D0%B2-%D0%BA%D1%83%D0%BD%D0%B6%D1%83%D1%82%D1%96-copy.png?alt=media&token=8cedbc02-1343-4349-b2cc-f63387ec8ff6&w=991&h=700&format=webp&mode=fit&q=60",
         name: "Филадельфия с креветками",
         description: "Креветка, сливочный сыр, огурец, кунжут 8 шт.",
@@ -50,6 +57,7 @@ export const goods = [
     },
     {   
         id: 8,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%9A%D0%B0%D0%BB%D1%96%D1%84%D0%BE%D1%80%D0%BD%D1%96%D1%97/BEFA2531-3068-11ED-ACA4-2DE1140535B7-1969%D1%851100_0029_%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F-%D1%81-%D0%BA%D1%80%D0%B0%D0%B1%D0%BE%D0%B2%D1%8B%D0%BC-%D0%BC%D0%B8%D0%BA%D1%81%D0%BE%D0%BC-%D0%B2-%D0%B8%D0%BA%D1%80%D0%B5.png?alt=media&token=6a3fc0a2-456e-422c-9c6a-0892adb7115d&w=800&format=webp&mode=fit&q=60",
         name: "Калифорнийский краб",
         description: "Снежный краб, огурец, икра 8 шт.",
@@ -57,6 +65,7 @@ export const goods = [
     },
     {   
         id: 9,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F/35747F91-2FA5-11ED-8371-B11A020B59BC-1969%D1%851100_0006_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F-%D1%81-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC.png?alt=media&token=2134e114-0d92-42c5-ab06-cc12ee288294&w=800&format=webp&mode=fit&q=60",
         name: "Филадельфия",
         description: "Лосось, сливочный сыр, огурец, 8 шт.",
@@ -64,6 +73,7 @@ export const goods = [
     },
     {   
         id: 10,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F/1CE280F1-3070-11ED-8371-B11A020B59BC-1969%D1%851100_0002_%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F-%D1%81-%D1%83%D0%B3%D1%80%D1%91%D0%BC.png?alt=media&token=42a5aeb4-67fd-4330-a2eb-57833558c64c&w=800&format=webp&mode=fit&q=60",
         name: "Филадельфия с угрем",
         description: "Угорь, сливочный сыр, авокадо, 8 шт.",
@@ -71,6 +81,7 @@ export const goods = [
     },
     {   
         id: 11,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F/5F4B1FF1-E51B-11ED-B93D-3D904A26EF2D-1969%D1%851100__0002_%D0%A4%D1%96%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D1%96%D1%8F-%D0%B7-%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D1%8E-%D0%B2-%D0%BA%D1%83%D0%BD%D0%B6%D1%83%D1%82%D1%96-copy.png?alt=media&token=8cedbc02-1343-4349-b2cc-f63387ec8ff6&w=991&h=700&format=webp&mode=fit&q=60",
         name: "Филадельфия с креветками",
         description: "Креветка, сливочный сыр, огурец, кунжут 8 шт.",
@@ -78,6 +89,7 @@ export const goods = [
     },
     {   
         id: 12,
+        count: 1,
         img: "https://x100-venus-sm-ua.gumlet.io/SKU/SUSHI-MASTER/%D0%9A%D0%B0%D0%BB%D1%96%D1%84%D0%BE%D1%80%D0%BD%D1%96%D1%97/BEFA2531-3068-11ED-ACA4-2DE1140535B7-1969%D1%851100_0029_%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D1%8F-%D1%81-%D0%BA%D1%80%D0%B0%D0%B1%D0%BE%D0%B2%D1%8B%D0%BC-%D0%BC%D0%B8%D0%BA%D1%81%D0%BE%D0%BC-%D0%B2-%D0%B8%D0%BA%D1%80%D0%B5.png?alt=media&token=6a3fc0a2-456e-422c-9c6a-0892adb7115d&w=800&format=webp&mode=fit&q=60",
         name: "Калифорнийский краб",
         description: "Снежный краб, огурец, икра 8 шт.",

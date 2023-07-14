@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css'
-import img from './image/cart-icon.png'
+import img from './image/icons-64.png'
 
 function Header() {
     return (
@@ -15,9 +15,11 @@ function Header() {
             <div>Block 2</div>
             <div>Block 3</div>
         </div>
-        <Link to={'cart'} className={styles.btn__cart}>
-            <img src={img} alt="cart-icon" />
-        </Link>
+        <div className={styles.header__cart}>
+            <Link to={'cart'} className={styles.btn__cart}>
+                <img src={img} alt="cart-icon" />
+            </Link>
+        </div>
 </div>
     );
   }

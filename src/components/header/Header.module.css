@@ -1,7 +1,8 @@
 .header  {
-    padding: 20px 30px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #333333;
     color: antiquewhite;
 }
@@ -18,10 +19,18 @@
 .header__menu div {
     margin-left: 50px;
 }
+
+.header__cart {
+    background: rgba(250, 235, 215, 0.942);
+    padding: 3px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
 .btn__cart img {
-    background: #333333;
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
 }
 
 @media (max-width:665px) {

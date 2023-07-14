@@ -1,35 +1,53 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import styles from './CartPage.module.css'
 import { ContentContext } from '../../App'
 
 
 function CartPage() {
-    let {arrCart} = React.useContext(ContentContext)
+    let { increment, descrement, removeItemCart, cost, cart} = React.useContext(ContentContext)
 
     return (
         <div className={styles.page__cart}>
             <div className={styles.cart__block}>
-                <h1>Your shopping cart</h1>
-                {arrCart.map(item => {
+                <div className={styles.cart__title}>
+                    <h1>Your shopping cart:</h1>
+                    <Link to={'/'} className={styles.cart__link}>
+                        Вернуться за товароми
+                    </Link>
+                </div>
+                {cart.map(item => {
                     return <div key={item.id} className={styles.cart__item}>
-                        <div 
+                        <img 
                             className={styles.cart__image}
-                            style={{
-                                background: `url(${item.img}) center no-repeat`
-                            }}/>
+                            alt='goods__rolls'
+                            src={item.img}
+                        />
                         <div className={styles.cart__info}>
                             <h2>{item.name}</h2>
-                            <p className={styles.cart__descr}>{item.description}</p>
+                            <div className={styles.cart__count}>
+                                <button onClick={()=>{descrement(item, item.id, item.count)}}>-</button>
+                                <span>{item.count}</span>
+                                <button onClick={()=>{increment(item.id, item)}}>+</button>
+                            </div>
                             <p>{new Intl.NumberFormat('uk', {
                                 style: 'currency',
                                 currency: 'UAH',
                             }).format(item.cost)}</p>
                         </div>
+                        <button onClick={()=>removeItemCart(item, item.id)} className={styles.remove__btn}></button>
                     </div>
                 })}
             </div>
-    </div>
+            <div className={styles.cart__cost_btn}>
+                <p>{new Intl.NumberFormat('uk', {
+                    style: 'currency',
+                    currency: 'UAH',
+                }).format(cost)}</p>
+            <button typeof="button">Заказать!</button>
+            </div>
+        </div>
     )
 }
 

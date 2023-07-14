@@ -2,23 +2,21 @@ import React from 'react'
 
 import styles from '../Content.module.css'
 import {goods} from './goods.data'
-// import { ContentContext } from '../Content'
 import { ContentContext } from '../../../App'
 
 function Goods() {
-    const {setCart, addCart} = React.useContext(ContentContext)
-    
+    const {changeCart} = React.useContext(ContentContext)
+
     return (
         <div>
             <h1 className={styles.title}>Catalog</h1>
             <div className={styles.blocks}>
                 {goods.map( roll => {
                     return <div key={roll.id} className={styles.item}>
-                        <div 
-                        className={styles.image}
-                        style={{
-                            background: `url(${roll.img}) center no-repeat`
-                        }}
+                        <img 
+                            className={styles.image}
+                            src={roll.img}
+                            alt='goods'
                         />
                         <div className={styles.info}>
                             <h2>{roll.name}</h2>
@@ -28,16 +26,7 @@ function Goods() {
                                 currency: 'UAH',
                             }).format(roll.cost)}</p>
                             <button onClick={()=> { 
-                                addCart(roll)
-                                return setCart(roll) 
-                            // return addCart()
-                                // return props.setCart(roll)
-                                // return  setCart({
-                                //     id: roll.id,
-                                //     name: roll.name,
-                                //     description: roll.description,
-                                //     cost: roll.cost,
-                                // })
+                                changeCart(roll)
                             }} className={styles.btn__add} type='button'>Add</button>
                         </div>
                     </div>

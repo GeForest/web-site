@@ -11,9 +11,11 @@ function Header() {
             </Link>
         </div>
         <div className={styles.header__menu}>
-            <div>Block 1</div>
-            <div>Block 2</div>
-            <div>Block 3</div>
+            {Array.from({ length: 3 }, (_, i) => (
+                <div key={i}>
+                    Block {i+1}
+                </div>
+            ))}
         </div>
         <div className={styles.header__cart}>
             <Link to={'cart'} className={styles.btn__cart}>

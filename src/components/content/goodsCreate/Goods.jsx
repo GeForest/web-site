@@ -1,12 +1,10 @@
 import React from 'react'
 
 import styles from '../Content.module.css'
-import {goods} from './goods.data'
 import { ContentContext } from '../../../App'
 
 function Goods() {
-    const {changeCart} = React.useContext(ContentContext)
-
+    const {changeCart, goods} = React.useContext(ContentContext)
     return (
         <div>
             <h1 className={styles.title}>Catalog</h1>

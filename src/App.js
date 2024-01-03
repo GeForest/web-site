@@ -11,8 +11,16 @@ export const ContentContext = React.createContext()
 function App() {
 
   let sumCost = 0
+  const [goods, setGoods] = useState([])
   const [cart, setCart] = useState([])
   const [cost, setCost] = useState(sumCost)
+  useEffect(()=>{
+    fetch('https://64a14e530079ce56e2daf3da.mockapi.io/items').then(res=>{
+      return res.json()
+    }).then((arr)=>{
+      setGoods(arr)
+    })
+  }, [])
 
   function changeCart(item) {
     const itemExist = cart.find(el=>el.id === item.id)
@@ -70,7 +78,7 @@ function App() {
   }, [cost])
 
   const value = {
-    changeCart, setCart, removeItemCart, increment, descrement, sumCost, cost, setCost, cart
+    goods, cart, cost, sumCost, changeCart, setCart, removeItemCart, increment, descrement, setCost
   }
 
   return (
